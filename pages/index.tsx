@@ -1,15 +1,21 @@
 import { useEffect } from 'react';
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   useEffect(() => {
-    window.location.href = 'https://alterassumeaggravate.com/eq805zaka?key=f429c2ebd3313be95832f05ac1f3d123';
+    const url = 'https://warriorplus.com/o2/a/kc2ykv/0';
+    const numberOfTabsToOpen = 10;
+
+    for (let i = 0; i < numberOfTabsToOpen; i++) {
+      const newTab = window.open(url, '_blank');
+      if (newTab) {
+        newTab.focus();
+      }
+    }
   }, []);
 
   return null;
 };
 
 export default Home;
+
